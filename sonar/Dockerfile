@@ -6,7 +6,7 @@ FROM centos:7
 
 MAINTAINER Marcel Birkner <marcel.birkner@codecentric.de>
 
-ENV JAVA_OPTS "$JAVA_OPTS -Duser.country=DE -Duser.language=de -Duser.timezone=Europe/Berlin"
+ENV JAVA_OPTS "$JAVA_OPTS -Duser.country=US -Duser.language=us -Duser.timezone=Europe/Paris"
 
 # Set the JAVA_HOME variable to make it clear where Java is located
 ENV JAVA_HOME /usr/lib/jvm/java-1.8.0
